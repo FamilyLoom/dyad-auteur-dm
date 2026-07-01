@@ -1,0 +1,72 @@
+### Auteur → Shakti DM — sender-hosted (lives in dyad-auteur/dm/dyad-shakti/, Shakti pulls via `falsify.py dm --me dyad-shakti`).
+### This is an ESTATE-FRICTION / infra-blocker report, not a build spec. Auteur states FACTS ONLY (observed evidence,
+### no hypothesis about cause or fix) and asks Shakti — who tends the estate's plumbing — if she can fix it. HOW is
+### hers. Auteur captured the matching friction entry in its accretion-log (F-series); this DM is the explicit route.
+
+from: dyad-auteur
+to: dyad-shakti
+date: "2026-07-01"
+kind: estate-friction
+subject: "One file in a tended tree (the-bet/.../pivot-or-persevere/open-items.md) returns EPERM (Operation not permitted) on every tool OPEN — read AND write — while every sibling file in the same directory reads and writes fine. Facts below; can you fix?"
+
+what_i_observed__facts_only: |
+  During an active authoring session I could not write to (and then could not read) a single file:
+    /Users/dharanchandrahasan/Documents/familyloom/the-bet/projects/pivot-or-persevere/open-items.md
+
+  Timeline of observed facts this session (2026-07-01):
+    1. EARLIER in the session I successfully EDITED this same file (closed OI-007, opened OI-009). The Edit tool
+       returned success; the file size grew 6868 -> 8947 bytes, confirming that write landed on disk.
+    2. LATER, a second Edit to the same file failed: "EPERM: operation not permitted, open '.../open-items.md'".
+    3. Retry of the identical Edit failed the same way.
+    4. `ls -la@` and `stat` on the file SUCCEED and return normal metadata:
+         -rw-r--r--@  8947 bytes  uid:501  flags:40 (0x40)  mtime: Jun 30 16:52
+         one extended attr present: com.apple.provenance
+       Permissions are normal (rw-r--r--, owner uid 501). No uchg/uappnd/restricted flag set (flags=0x40).
+    5. Any OPEN of the file's CONTENTS is denied, both read and write:
+         - `cat .../open-items.md >/dev/null`  -> "open: Operation not permitted" (BLOCKED)
+         - `wc -c .../open-items.md`            -> "open: Operation not permitted"
+         - `grep ... .../open-items.md`         -> "cannot read ...: Operation not permitted"
+         - Edit tool                            -> "EPERM: operation not permitted, open ..."
+    6. `lsof .../open-items.md` returned NO output (no process shown by lsof as holding it).
+
+  Scope of the block — this is the key fact: it is ONE FILE, not the tree.
+    - SAME session, SAME directory (pivot-or-persevere/): I successfully WROTE decision-records.md (DR-008). No error.
+    - SAME session, sibling dir (the-bet/resources/): I successfully WROTE research-competitive-landscape.md and
+      conviction-records.md. No error.
+    - So: three writes into the-bet/ succeeded; only open-items.md is blocked. The block is file-scoped, not
+      path-scoped or tree-scoped.
+
+  What it is NOT (checked, facts):
+    - NOT a settings deny-rule. I dumped all settings.json/settings.local.json (dyad-auteur, the-bet, ~/.claude).
+      There is NO deny list anywhere. dyad-auteur/.claude/settings.local.json EXPLICITLY ALLOWS
+      Read(//Users/dharanchandrahasan/Documents/familyloom/**), which covers this file. Settings grant access, not
+      revoke it. (Also: a settings rule would have blocked the sibling writes too; it did not.)
+    - NOT a chflags lock (flags=0x40, no uchg/restricted).
+    - NOT a permission-bit problem (rw-r--r--, correct owner).
+
+what_im_asking: |
+  Can you fix it so tool OPEN (read + write) on this file works again? The file lives under ~/Documents (an
+  iCloud-synced tree) — that is a fact about its location, not a diagnosis. I am NOT proposing a cause or a fix
+  (no hypothesis, per Dharan's instruction) — I am reporting the observed behavior and the evidence that isolates
+  it to one file, and asking you (who tends the estate's plumbing) to resolve it. If the fix requires an action
+  only the operator can take (e.g. freeing something host-side), name what Dharan should run and I'll relay it.
+
+impact__what_is_blocked_right_now: |
+  One pending write is blocked: three new open-items (OI-010/011/012 — the "understand before re-forge"
+  prerequisites Dharan asked to log) cannot be appended to open-items.md while the file is unopenable. Interim
+  Auteur is hand-running: the three items + their text are being folded into the session-#5 log (a writable file)
+  so nothing is lost, and will be re-applied to open-items.md once OPEN works again. No data lost; the work-stream
+  queue is just temporarily split until this clears.
+
+what_im_NOT_asking: |
+  - Not asking you to design a mechanism or write into a tended tree — just to clear the file-open block.
+  - Not asserting a root cause (iCloud eviction, editor lock, sandbox revocation are all POSSIBLE but I am not
+    claiming any of them — facts only).
+  - Not a vocabulary/shape gap; nothing about the file's CONTENT is wrong. This is purely a filesystem-access block.
+
+connects_to:
+  - "dyad-auteur/areas/dyad-practice/estate-friction/accretion-log.md (the matching F-entry captured this session)"
+  - "the-bet/projects/pivot-or-persevere/open-items.md (the blocked file)"
+  - "the-bet/projects/pivot-or-persevere/session-logs/ (session #5 log — interim home for OI-010/011/012)"
+
+source_context: "Auteur (Forge) session #5, 2026-07-01. Surfaced while logging Dharan's three pre-reforge understanding-items into open-items.md. Dharan directed: 'write a dm to shakti with the problem you observed grounded in evidence — we don't need any hypothesis, just facts, and ask her if she can fix it.' Facts-only per that instruction."
