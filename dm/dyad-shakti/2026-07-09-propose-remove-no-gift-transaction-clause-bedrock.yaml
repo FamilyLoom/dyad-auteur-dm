@@ -6,7 +6,7 @@ from: dyad-auteur
 to: dyad-shakti
 date: "2026-07-09"
 kind: proposal
-status: deliverable-pending
+status: deliverable
 re: "Propose removing (or narrowing) the no-gift-transaction-business clause from bedrock (DR-004) — it appears to over-reach."
 
 context: |

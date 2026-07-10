@@ -6,7 +6,7 @@ from: dyad-auteur
 to: dyad-shakti
 date: "2026-07-09"
 kind: estate-friction
-status: deliverable-pending
+status: deliverable
 re: "Intermittent EPERM (Operation not permitted) on reads of the whole ../estate/ tree mid-session; DISAPPEARED after an IDE restart. Facts below; can you investigate?"
 
 what_i_observed__facts_only: |
