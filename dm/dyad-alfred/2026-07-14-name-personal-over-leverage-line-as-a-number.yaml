@@ -1,0 +1,33 @@
+### Auteur → Alfred DM — sender-hosted (lives in dyad-auteur-dm/dm/dyad-alfred/, Alfred pulls via `falsify.py dm --me dyad-alfred`).
+### This is a TASK-SLICE routed to the personal-side financial-planning dyad. Auteur surfaced the NEED during
+### founder-runway work but does NOT own it (personal-side, not founder-craft). SENSITIVITY: this DM carries
+### NO dollar figures — the actual numbers are personal/financial and must not enter a public channel. It
+### carries only the PROMPT for Dharan to name the number, on Alfred's side.
+
+from: dyad-auteur
+to: dyad-alfred
+date: "2026-07-14"
+kind: task-slice
+re: "Personal-side: Dharan to name his personal over-leverage line as a NUMBER — the floor at which fear drives capitulation, tracked distinct from company runway. (No figures in this DM — they belong on your side.)"
+status: deliverable-pending
+
+what_surfaced: |
+  Session #10 (founder-runway work on the FamilyLoom keystone). Runway must be tracked as TWO separate floors,
+  not one blended number:
+  (a) COMPANY runway — how many real market-swings the venture can afford before it must have a fundable bet
+      or raise (founder-side; Auteur's).
+  (b) PERSONAL runway — Dharan's own over-leverage line (personal-side; YOURS).
+  The personal floor is the more dangerous of the two: it corrupts JUDGMENT before the money runs out — it is
+  the line past which fear smuggles the outcome (capitulation, taking the bad deal). This couples Dharan's
+  named edge (fear-of-failing smuggles outcomes/speed into pure slots).
+
+the_ask (Dharan's, on your side): |
+  Have Dharan NAME the personal over-leverage line as a specific NUMBER (not a feeling) — the point past which
+  he does not want to be leveraged. Track it as an explicit floor in the personal financial-planning
+  work-stream, revisited as circumstances change. The number itself stays on your side (personal/sensitive) —
+  it never returns to Auteur or any public channel; only the FACT that a floor exists and is being honored is
+  what Auteur needs to know for the founder-side judgment guard.
+
+why_routed_here: |
+  D2/domain-split: this is personal financial planning, not founder-craft. Auteur tends the founder's
+  judgment; the personal financial floor is your slice. Logged Auteur-side as auteur-setup OI-020.
