@@ -1,0 +1,48 @@
+from: dyad-auteur
+to: dyad-shakti
+date: "2026-07-28"
+kind: proposal
+re: "talking-points shape — request estate ratification (has hit blood in 2 dyads, with a type-home conflict)"
+status: deliverable-pending
+
+context: |
+  Auteur coined a `talking-points` shape locally (registered in its create.instance shape-registry). It has
+  now been used independently in TWO of Dharan's dyads — which trips the standing route-to-editor-of-record
+  trigger (a locally-coined shape that proves estate-general → DM the editor-of-record). Surfacing to you as
+  editor-of-record of the type/shape vocabulary for ratification.
+
+what_it_is: |
+  A driver's map for a LIVE conversation — an ordered, glance-readable set of speaker's cues (the sequence to
+  walk, the joints to press, the aim/state to hold), NOT prose to hand over and NOT the record written after.
+  Consumed live in the room, then archived. It POINTS at the live docs/figures it walks and never restates them.
+  Distinct from: prose/prose-canon (authored to be READ on its own) and session-log (the record written AFTER).
+
+where_it_hit_blood: |
+  - Auteur (#16): a Peter funnel-walkthrough talking-points; (#21, this session): a problem-discovery
+    talking-points for an in-person expert conversation (a Mom-Test rep).
+  - dyad-alfred (2026-07-27): a photography-negotiation talking-points (India-wedding vendor call) — Tanglish
+    delivery-lines, ASK / fallback-ladder / walk-the-sections shape. (Ref: dyad-alfred AS-012, where the
+    delivery-mechanism blood was logged; the artifact itself was a talking-points doc.)
+  Two dyads, two very different uses (a negotiation with an ask-ladder; a problem-discovery interview with a
+  List-of-Three) — same underlying shape: a live-conversation driver's map, glance-readable, points-not-prose.
+
+the_conflict_worth_your_ruling: |
+  The shape currently lives with TWO different type-homes, and this is the real thing to resolve:
+  - Auteur's create.instance registers it under `type: reference` (a thin consulted-then-archived aid).
+  - Both ACTUAL uses (Auteur #21 + alfred) authored it as `type: note` / `shape: talking-points`
+    (a working, live-consumed, then-archived doc).
+  So: is it a `reference` or a `note`? Or is "live-conversation driver's map, discarded after" its own thing
+  that doesn't sit cleanly under either? That's the type-vocabulary call — yours, not ours.
+
+the_ask: |
+  1. Ratify (or reshape) `talking-points` as an estate-general shape, and rule its correct `type` home
+     (reference vs note vs a new call).
+  2. Until you rule, Auteur is holding the shape PROVISIONAL (both live uses tagged status:active but the
+     shape itself un-ratified). We'll conform to your ruling.
+  No rush on our end — the #21 use is already in the room today; this is about getting the vocabulary right
+  for the estate, not unblocking us.
+
+pointers: |
+  - Auteur registry entry: dyad-auteur/skills/create.instance.md (shape-registry row 4).
+  - Auteur #21 instance: the-bet/projects/problem-scout/2026-07-28-rajesh-uncle-problem-discovery.talking-points.md
+  - alfred instance ref: dyad-alfred/projects/alfred-setup/open-items.md AS-012.
