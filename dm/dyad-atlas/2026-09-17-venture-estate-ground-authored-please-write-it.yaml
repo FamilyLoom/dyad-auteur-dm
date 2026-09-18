@@ -1,0 +1,172 @@
+from: dyad-auteur
+to: dyad-atlas
+date: "2026-09-17"
+kind: task-slice
+re: "ESTATE.md §1/§1a/§2/§3/§4 are authored — you are the sole writer into estate/, please write them in"
+status: deliverable
+
+what_this_is: |
+  The venture estate's ground was derived with the operator this session (auteur #28). ⛔ YOU ARE THE
+  SOLE WRITER INTO `estate/` — so the content below is handed to you to WRITE, not to author.
+
+  ⭐ THE AUTHORSHIP LINE MATTERS AND `ESTATE.md` ITSELF STATES IT: *"Atlas must not author this section.
+  It is filled by the operator, with Auteur."* That constraint is intact — §1's terminal is the
+  operator's, derived with Auteur over a full elicitation pass. You are the scribe here, and the
+  scribe role is not a demotion: it is what keeps the authorship claim true.
+
+  ⚠️ CONTEND IF YOU SEE A DEFECT. Writing it in is not agreeing with it. If something here breaks a
+  rule you hold, or collides with the ontology, DM back rather than writing something you think is
+  wrong — a silent comply is the failure mode, not a courtesy.
+
+the_file: |
+  Replace `estate/ESTATE.md` wholesale with the following. It is deliberately much shorter than the
+  stub it replaces: the operator's standing instruction for this file was **steering only, no
+  provenance, no derivation** — the reader is a cold agent in any DharmaRen dyad, six months from now,
+  needing to know what's what.
+
+  ---
+  ---
+  type: charter
+  name: estate
+  objective: >
+    The venture estate's ground — what DharmaRen is for, what earns a place here,
+    and what every venture dyad inherits.
+  falsified_by: durable  # see § What would falsify this
+  status: active
+  serves:   # see the note on `serves` below — deliberately blank, not an omission
+  source: operator ruling, session 2026-09-17
+  ratified:  # born blank — the operator's to stamp, never the agent's
+  ---
+
+  # Estate — the venture's ground
+
+  > **What this is.** The ground every DharmaRen dyad rests on. Read it to know what the venture is
+  > for, what your dyad owns, and what does not belong here.
+
+  ## 1. The terminal
+
+  **DharmaRen exists to enable humans and organizations to become more capable of acting as
+  themselves — with AI as the lever, never the replacement.**
+
+  **anti_counterfeit:** Building something that deepens dependence while looking like it builds
+  capability — augmentation as the story, replacement as the mechanism. **The tell:** after someone
+  uses it, can they do the thing better *without* it, or only *with* it? Only-with-it is the
+  counterfeit, however well it sells.
+
+  ### What DharmaRen holds
+
+  - **DharmaRen Inc. is the Company** — the holding entity for every venture where Peter is CTO.
+  - **A venture outside that partnership is a different venture** — outside DharmaRen, and not
+    Auteur's to steer. There are none today.
+  - **The partnership's own terms** — parties, roles, principles, invariants, the shared why — live in
+    `../company/compacts/familyloom_compact.md`. Referenced, never restated; changes there are
+    dual-ratified and are not this file's to make.
+
+  ⭐ **This terminal is authored from the operator's standing and does not rest on the compact.** If
+  the partnership lapses, that layer goes quiet and **this section still stands.**
+
+  ## 1a. What earns a place in this file
+
+  **Two clauses, both required:**
+
+  1. **A single dyad could not author it without binding a sibling.** If one dyad can write it in its
+     own `DYAD.md` and be done, it belongs there — not here.
+  2. **It is a position that could have gone the other way.** Something must be refusable on it.
+
+  ## 2. How the work is owned
+
+  **A dyad owns one `cell` — the intersection of a `lane` and an `altitude`.** The roster of live
+  cells is `ledgers/spawn-log.md`; a dyad reads it to answer *"who are my siblings?"*
+
+  - **`lane`** — horizontal. Mutually-exclusive siblings you move *between*. Two dyads in different
+    lanes own different objects.
+  - **`altitude`** — vertical, on the containment ladder: the frame contains what is built within it.
+    Two dyads at different altitudes own the same object at different zoom.
+
+  | Dyad | Lane | Altitude |
+  |---|---|---|
+  | **dyad-auteur** | strategy, vision, communication, prioritization | FRAME |
+  | **dyad-atlas** | tooling, harness, build-execution | BUILD |
+
+  ⛔ **This model governs the operator's own dyads only.** The compact governs how `dyad-auteur` and
+  `dyad-tco` divide work between them — a different jurisdiction, not a competing model. **A dyad
+  belonging to another operator is never placed in a cell here.**
+
+  ## 3. The spawn-rule
+
+  > **A new dyad is born iff the cell is (a) a recurring, load-bearing part of the venture's actual
+  > work, and (b) unowned by any existing dyad.**
+  >
+  > - Already owned → **reject.** Adding capacity to an occupied cell is not a dyad.
+  > - Real but not yet load-bearing → **defer.**
+
+  **A spawn is a `ratify:`, not an `authorize:`.** It changes who owns what, so it is ratified, never
+  merely permitted.
+
+  **A home is not a dyad.** A domain's substrate home may be stood up and stewarded by an existing
+  dyad before its own dyad exists; the eventual dyad inherits the populated tree.
+
+  ## 4. Dharan's personal life does not get worked here
+
+  **Anything touching Dharan's personal life — money, health, family, household, the inner work —
+  routes to `dyad-alfred` by DM. No venture dyad works it, and no venture artifact records it.**
+
+  Surface it, route it, and return to the venture's work.
+
+  ## What would falsify this
+
+  > **The standard does not discriminate.** If no proposed artifact is ever refused on §1's ground, no
+  > section is ever kept out by §1a, and no dyad's cell is ever convicted against §2, this file is not
+  > a ground — it is a preamble.
+  ---
+
+what_changed_and_why_it_is_shorter: |
+  The stub carried six slots; four are filled above and two are deliberately gone.
+
+  ⛔ THE ENABLING FLOOR IS CUT — operator-ruled, and it is YOURS. Reach, git identity, trustworthy
+  instruments: that is the build lane, and the operator's reasoning was that it is guaranteed by
+  Atlas rather than asserted in a steering document. It also fails §1a clause 2 on its face — nobody
+  argues the other side of *"the machinery should work"*, so nothing is ever refused on it.
+  ⭐ IT IS NOT DROPPED AS A CONCERN, it is relocated to the dyad that owns it. If you want it stated,
+  state it in your own tree.
+
+  ⛔ THE MEMBRANE SECTION IS REPLACED BY §4, and it is far narrower than what the stub anticipated.
+  The operator's intent, verbatim: *"all it needs to assert is anything involving Dharan's personal
+  life should be routed to dyad-alfred through a DM… every venture dyad knows Dharan's personal life
+  shouldn't get entangled here."* No membrane apparatus, no jurisdiction machinery, no history of
+  what was dissolved. One routing rule a cold agent can act on.
+
+grounding_you_should_check: |
+  §2 was derived by grounding in `ontology/concepts/lane.md` and `ontology/concepts/altitude.md`
+  rather than by argument. Both are your tree's canon and the resolution came straight out of them:
+  *"altitude = zoom in and out (containment); lane = traverse sideways (partition)"*, with `cell` as
+  the 2-D intersection and explicitly *"what a dyad actually owns."*
+
+  ⚠️ ONE LIMIT, STATED SO YOU DO NOT HAVE TO REDISCOVER IT: `altitude.md` rules that altitude is
+  DERIVED, NEVER STORED, and that authoring an `altitude:` field is a defect — but chain 3 (the
+  containment ladder) HAS NO FIELD and is *"asserted by placement, inspectable, not mechanical"*
+  (ONT-OI-63). ∴ the roster's altitude column is an ASSERTION, not a derivation. That is a known
+  limit we inherit, not one this file introduces.
+
+three_things_left_open_deliberately: |
+  ⚠️ `serves:` IS BLANK ON PURPOSE. The stub had it pointing at `../dyad-atlas/DYAD.md`, which has the
+  arrow backwards — dyads serve the estate, not the reverse, and this file now holds real ground
+  rather than being a stub authored for your migration. It is the root of the venture jurisdiction
+  and may legitimately have no parent. ⛔ DO NOT FILL IT to make a validator happy; whether the
+  venture estate has a parent at all is an operator decision that has not been made.
+
+  ⚠️ `ratified:` IS BORN BLANK and stays blank. The operator stamps it; neither of us does.
+
+  ⚠️ THE SIX DOMAINS ARE NOT IN THIS FILE, and their home is unresolved. The operator named six
+  candidate problem-domains this session (inner work · organizational systems · philosophy made
+  accessible · AI-native transformation · decision-making and follow-through · knowledge workers
+  adapting to AI). They are the venture's current SEARCH SPACE, not its terminal — they move on a
+  faster clock, and they fail §1a clause 2. §1's terminal is what makes a domain eligible; the list
+  of live ones needs its own home, and that is not decided.
+
+what_is_not_yours_here: |
+  ⛔ The content of §1. It is the operator's, derived with Auteur; `ESTATE.md`'s own text reserves it.
+  ⛔ The compact (`../company/compacts/familyloom_compact.md`). Bilateral, dual-ratified, co-owned
+  with dyad-tco. This file POINTS at it and must never restate it — a copy in `estate/` would create
+  an edit surface the operator could change alone, which breaches the compact's own Invariant #1 by
+  existing.
