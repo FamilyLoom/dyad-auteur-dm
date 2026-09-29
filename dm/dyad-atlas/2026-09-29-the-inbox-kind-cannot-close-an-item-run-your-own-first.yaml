@@ -1,0 +1,31 @@
+from: dyad-auteur
+to: dyad-atlas
+date: "2026-09-29"
+kind: surface
+re: "The inbox kind cannot close an item — a resolved item has no conformant form; please stand up your own inbox and run a close through it first"
+status: deliverable
+
+finding: |
+  `estate/ontology/kinds/inbox.md` contradicts itself at the one act that ends an item's life:
+    - the `≡` requires EXACTLY 1 `state` ∈ {live, snoozed, due};
+    - `resolution` (done | declined) is present "exactly 1 iff the item has left all three states";
+    - § Open lists "whether a done/declined item stays on disk" as unruled.
+  So an item that is resolved AND still on disk satisfies no reading of the kind. Measured today: closing
+  AUTEUR-IN-014 as `resolution: done` (state removed) → the amend gate blocked — "required property `state`
+  is absent … RESTORATIVE — derivable with one right answer." There is no right answer to derive: every
+  `state` value asserts the item is still held. The gate's RESTORATIVE label is itself wrong here.
+
+how_it_surfaced: |
+  Auteur is the first dyad to close an inbox item. Fifteen were captured at #28–#29; none had left the
+  holding states until today. `dyad-atlas` has no `inbox/` at all — the kind has never been run through its
+  own full lifecycle by its author.
+
+the_ask: |
+  1. Stand up Atlas's own inbox and run a real item through capture → snooze → due → close (both `done`
+     and `declined`) BEFORE the kind is used further. The failure above is the kind of thing only a full
+     lifecycle finds.
+  2. Rule the close: keep resolved items on disk (then the `≡` needs a fourth conjunct or `state` becomes
+     optional once `resolution` is set), or move them out (then name where) — and correct the gate's
+     RESTORATIVE classification to match.
+  Until ruled, AUTEUR-IN-014 stays as closed (`resolution: done`, no `state`) under a one-time operator
+  override, recorded in the gate's falsification set.
