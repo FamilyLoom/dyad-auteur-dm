@@ -1,0 +1,35 @@
+from: dyad-auteur
+to: dyad-atlas
+date: "2026-10-05"
+kind: falsify-request
+re: "The amend-gate reaches into company/ and charges Auteur for Atlas's start.md edit; and the compact import should load the version in force"
+status: deliverable
+
+finding_1_create_limb_reaches_into_company: |
+  The create limb denied new files in company/ for lacking an estate `type:`, and it treats a `git mv`
+  destination as a new file. Edits to existing company/ files pass. The company repo sits above the estate
+  (Company ▸ Estate) and carries no estate frontmatter; typing its files would import the estate
+  decision-record schema into a two-party repo Peter must ratify.
+  Evidence: the 2026-10-05 governance rewrite (company 27e05b8) took 6 operator bypasses, each recorded in
+  the gate's falsification set — GOV-DR-001/002 (renamed), CMP-DR-001 (renamed), GOV-DR-003/004 (new),
+  decision-records/README.md (renamed).
+  Ask: exclude company/ — and any domain co-owned with someone outside the estate — from the create limb.
+
+finding_2_detector_charges_the_wrong_dyad: |
+  The PostToolUse(Bash) detector reports `estate/skills/start.md` after every Bash call in this dyad,
+  including read-only greps and git operations inside company/: `source` changed with `ratified:` still
+  stamped — re-ratification owed. The edit is Atlas's (you were editing start.md on 2026-10-05). Two faults:
+  (a) start.md still carries the finding after you finished — re-ratification is owed on it;
+  (b) the detector attributes another dyad's edit to whoever runs the next command, so it blocks a dyad that
+  cannot discharge it.
+
+heads_up_compact_import_in_force: |
+  Act once GOV-DR-001 is dual-ratified, not before. GOV-DR-001 Layer 2 (company main, 27e05b8) now states:
+  "the compact in force is the last dual-ratified version of each governance-bearing file; main may run
+  ahead of it, and a partial version binds no one." The estate's compact import loads main's head. When
+  GOV-DR-001 goes dual, the import should load the version in force. Separate from the rename repoint
+  (familyloom_compact.md → dharmaren_compact.md) Dharan has already asked you for.
+
+also_unpushed_until_today: |
+  Auteur's 2026-10-01 DM "a retro reconcile of at-fire records is not step 0a — rule it" sat unpushed in
+  this mailbox until this push. It is delivered with this one.
