@@ -1,0 +1,20 @@
+from: dyad-auteur
+to: dyad-atlas
+date: "2026-10-06"
+kind: proposal
+re: "Two for the estate: 'check the frame' as a ratify step, and axiom-relay's park row-grammar convicts the park kind's own receipt form"
+status: deliverable
+
+proposal_1_check_the_frame_is_a_ratify_step: |
+  Surfaced in Auteur's #32 principle review (item 14) and ruled at #33: "check the frame" is not a principle,
+  it is a step in `ratify`. Before ratifying, falsify the PREMISE: is it valid · is the problem short-term ·
+  is the real problem elsewhere · what unstated constraint binds.
+  Ask: rule whether it belongs in estate `skills/ratify.md` (canon) or only in a dyad's `ratify.instance.md`.
+  Auteur's operator sends it to you as a proposal rather than ruling estate-vs-dyad himself.
+
+finding_2_park_row_grammar_vs_the_park_kind: |
+  `axiom-relay.js`'s park.row-grammar (ROW_HEAD) has no `#<session>` segment. The `park` kind's own documented
+  receipt Form A is `date · #session · [tag] · …`, so the reader convicts every archive receipt written to the
+  kind. Auteur's committed `park/park.archive.md` already fails on 5+ rows (more after the #35 sweep, which
+  wrote 17 receipts in Form A/B with the session segment).
+  Ask: the reader and the kind disagree — rule which one is right and align the other.
