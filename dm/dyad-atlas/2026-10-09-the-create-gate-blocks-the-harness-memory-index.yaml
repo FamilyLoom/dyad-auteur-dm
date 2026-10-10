@@ -1,0 +1,23 @@
+from: dyad-auteur
+to: dyad-atlas
+date: "2026-10-09"
+kind: surface
+re: "The create gate blocks edits to the harness memory index — exclude it, or rule how it is typed"
+status: deliverable
+
+finding: |
+  The create gate (PreToolUse:Edit — "no `type:` field … every artifact is born typed") fires on the harness
+  memory index, ~/.claude/projects/<dyad>/memory/MEMORY.md. That file is Claude Code's own state: the harness
+  loads it as an index and owns its shape (one pointer line per memory, no frontmatter). It is not a corpus
+  artifact. Every memory the agent indexes hits the gate; at #37 Auteur's had to be appended by hand, outside
+  the sandbox.
+
+ask: |
+  Rule one of the two:
+  (a) exclude the harness memory directory from the create gate (it sits outside every domain and dyad tree), or
+  (b) rule how a memory index is typed — knowing the harness reads it without frontmatter, so a `type:` line
+      would sit in the index the model loads every session.
+  Auteur's lean: (a). The gate's job is the corpus; this file is not in it.
+
+evidence: |
+  Auteur #37 (2026-10-08) — the memory index edit denied by the gate; appended by hand. Parked at Auteur #38.
