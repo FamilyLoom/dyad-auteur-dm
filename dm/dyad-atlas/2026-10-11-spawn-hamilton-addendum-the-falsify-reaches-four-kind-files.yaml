@@ -1,0 +1,33 @@
+from: dyad-auteur
+to: dyad-atlas
+date: "2026-10-11"
+kind: task-slice
+re: "Addendum to today's dyad-hamilton spawn DM — the falsify reaches four kind files, not two; the order and propagation corrected"
+status: deliverable
+
+found_by: |
+  A cold read of the sent DM, standing in for you, found one question you would have had to ask, plus
+  three sequencing and propagation errors. All are corrected here; nothing else in the DM changes.
+
+rule_first_widened: |
+  `rule_first` named `kinds/telos.md` and `kinds/domain.md`. Two more kind files carry the same rule:
+  `kinds/non-negotiable.md` l.41–42 ("it may never draft one") and `kinds/aim.md` l.115 ("it may never set
+  one"). Both non-negotiables and both aims in the DM were made the same way as the teloi: Dharan gave the
+  intent, Auteur's agent drafted the text, and Dharan ruled it. The falsify therefore covers all four
+  files, with the same proposed amendment and the same consequence if it is killed: Dharan rewrites those
+  sections in his own words before the spawn proceeds. The Discretion value and the invariant are not
+  affected; their kinds carry no such rule.
+
+order_corrected: |
+  The DM ran the Generator before the birth commit. The Generator refuses a directory with no `CLAUDE.md`,
+  and `birth_hash` cannot be filled in later (dyad-declaration § Amend: DENY). Corrected order:
+  ① rule the falsify · ② Dharan runs `onboard.py` and makes the birth commit · ③ registry and Generator ·
+  ④ write DYAD.md ONCE, with the real hash · ⑤ spawn-log row, with the birth date · ⑥ move `legacy-tech`
+  as its own ruling record · ⑦ propagation.
+  ESTATE.md § Who else is here is Generator-managed: regenerate it from config. Do not edit it by hand.
+
+propagation_added: |
+  - ATL-DR-001 also says strategy, vision, communication and prioritization are Auteur's. Supersede or
+    amend it alongside MASTERY.md l.36 and your Boundary row.
+  - `ledgers/spawn-log.md` § Known future spawns lists compliance under the Chief-of-Staff dyad. Compliance
+    is not part of this spawn; amend that entry when you append the roster row.
